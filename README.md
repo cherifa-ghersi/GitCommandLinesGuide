@@ -2,24 +2,26 @@
 
 Table of Contents
 
-[Intro](https://github.com/summitech/gitexplorer/blob/master/README.md#intro)
+[Intro](https://github.com/cherifa-ghersi/GitCommandLinesGuide/master/README.md#intro)
 
-[Instalation de GIT](https://github.com/summitech/gitexplorer/blob/master/README.md#intro)
+[Instalation de GIT](https://github.com/cherifa-ghersi/GitCommandLinesGuide/README.md#installation)
 
-[Creation d'un repo] 
+[Creation d'un repo](https://github.com/cherifa-ghersi/GitCommandLinesGuide/README.md#creation)
 
-[Modification] 
+[Modification](https://github.com/cherifa-ghersi/GitCommandLinesGuide/README.md#modif)
 
-    [Ajout]
+    Ajout  
 
-    [Validation]
+    Validation
 
-    [Publication]
+    Publication
 
-    [Récuperation]
+    Récuperation
 
-    [Annulation]
+    Annulation
 
-[Branches et tags ]
+[Branches et tags](https://github.com/cherifa-ghersi/GitCommandLinesGuide/README.md#branches&tags)
 
-[Alias]
+[Alias](https://github.com/cherifa-ghersi/GitCommandLinesGuide/README.md#alias)
+
+
