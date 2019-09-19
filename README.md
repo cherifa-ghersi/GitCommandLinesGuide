@@ -26,6 +26,6 @@ Table of Contents
 
 [Synchonisation](https://github.com/cherifa-ghersi/GitCommandLinesGuide/README.md#Synchonisation)
 
-[historique](https://github.com/cherifa-ghersi/GitCommandLinesGuide/README.md#historique)
+[Historique](https://github.com/cherifa-ghersi/GitCommandLinesGuide/README.md#historique)
 
 [Alias](https://github.com/cherifa-ghersi/GitCommandLinesGuide/README.md#alias)
