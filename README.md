@@ -1,6 +1,6 @@
-# Git Command Lines Guide
+# Cheat sheet Git 
 
-Table of Contents
+Sommaire
 
 [Intro](https://github.com/cherifa-ghersi/GitCommandLinesGuide/master/README.md#intro)
 
@@ -23,11 +23,13 @@ Table of Contents
     Annulation
 
 [Branches et tags](https://github.com/cherifa-ghersi/GitCommandLinesGuide/README.md#branches&tags)
-[Synchonisation]
-[hestorique]
 
+[Synchonisation](https://github.com/cherifa-ghersi/GitCommandLinesGuide/README.md#Synchonisation)
+
+[historique](https://github.com/cherifa-ghersi/GitCommandLinesGuide/README.md#historique)
 
 [Alias](https://github.com/cherifa-ghersi/GitCommandLinesGuide/README.md#alias)
 
-![](/src/assets/gitCommandes.gif)
+### Intro
 
+![](/src/assets/gitCommandes.gif)
