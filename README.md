@@ -8,7 +8,7 @@ Table of Contents
 
 [Configuration](https://github.com/cherifa-ghersi/GitCommandLinesGuide/README.md#configuration)
 
-[Creation d'un repository](https://github.com/cherifa-ghersi/GitCommandLinesGuide/README.md#creation)
+[Creation d'un repo](https://github.com/cherifa-ghersi/GitCommandLinesGuide/README.md#creation)
 
 [Modification](https://github.com/cherifa-ghersi/GitCommandLinesGuide/README.md#modif)
 
@@ -23,9 +23,11 @@ Table of Contents
     Annulation
 
 [Branches et tags](https://github.com/cherifa-ghersi/GitCommandLinesGuide/README.md#branches&tags)
+[Synchonisation]
+[hestorique]
 
-[Synchonisation](https://github.com/cherifa-ghersi/GitCommandLinesGuide/README.md#Synchonisation)
-
-[Historique](https://github.com/cherifa-ghersi/GitCommandLinesGuide/README.md#historique)
 
 [Alias](https://github.com/cherifa-ghersi/GitCommandLinesGuide/README.md#alias)
+
+![](/src/assets/gitCommandes.gif)
+
