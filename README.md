@@ -2,7 +2,7 @@
 
 Sommaire
 
-[Intro](https://github.com/cherifa-ghersi/GitCommandLinesGuide/blob/master/README.md#intro)
+[Introduction](https://github.com/cherifa-ghersi/GitCommandLinesGuide/blob/master/README.md#intro)
 
 [Instalation de GIT](https://github.com/cherifa-ghersi/GitCommandLinesGuide/blob/master/README.md#installation)
 
@@ -33,3 +33,12 @@ Sommaire
 ### Intro
 
 ![](/src/assets/gitCommandes.gif)
+
+### Instalation de GIT
+### Configuration
+### Création d'un repository
+### Modification
+### Branches&tags
+### Synchonisation
+### historique
+### Alias
