@@ -50,13 +50,13 @@ Sommaire
 
 |  commande  | Utilité  |
 | ------------- | ------------- |
-| $ git init nom_depot | initialisé un nouveau dépot dans le repertoir ou on se trouve |
+| $ git init nom_repository| initialisé un nouveau dépot dans le repertoir ou on se trouve |
 
   Aprés avoir initialisé le dépôt sur notre répertoire de travail, il faut ajouter nous modification à notre index avec  "$ git add .", l'enregistrer sur le repository local "$ git commit -m 'message à sauvgarder'" et ensuite l'envoyer sur le repository distant "$git push ".
 
 |  commande  | Utilité  |
 | ------------- | ------------- |
-| $ git clone url_depot ||
+| $ git clone url_repository | Copié un repository distant |
 
 Aprés avoir copié le repository disatant il faut se mettre sur le dossier ajouter "cd nom_depot"
 
