@@ -8,7 +8,7 @@ Sommaire
 
 [Configuration](https://github.com/cherifa-ghersi/GitCommandLinesGuide/blob/master/README.md#configuration)
 
-[Creation d'un repo](https://github.com/cherifa-ghersi/GitCommandLinesGuide/blob/master/README.md#creation)
+[Création d'un repository](https://github.com/cherifa-ghersi/GitCommandLinesGuide/blob/master/README.md#creation)
 
 [Modification](https://github.com/cherifa-ghersi/GitCommandLinesGuide/blob/master/README.md#modif)
 
@@ -31,6 +31,7 @@ Sommaire
 
 ### Introduction
  système de gestion de versions décentralisée
+ 
 
 ![](/src/assets/gitCommandes.gif)
 
@@ -41,16 +42,16 @@ Sommaire
 
 |  commande  | Utilité  |
 | ------------- | ------------- |
-| $ git config --global user.name "nom prenom" | configuration initiale du nom et prénom de l'utilisateur |
-| $ git config --global user.email "nom.prenom@email.com"   |configuration initiale de l'email de l'utilisateur  |
-| $ git config --global color.ui true, false ou  always  | configuration optionnelle de la couleur de sortie dans la console  |
-| $ git config list | liste de toute les configurations  |
-| $ git config --help | liste de toute les commande quand peut utilisé avec git config |
+| $ git config --global user.name "nom prenom" | Configuration initiale du nom et prénom de l'utilisateur |
+| $ git config --global user.email "nom.prenom@email.com"   |Configuration initiale de l'email de l'utilisateur  |
+| $ git config --global color.ui true, false ou  always  | Configuration optionnelle de la couleur de sortie dans la console  |
+| $ git config list | Lister de toute les configurations  |
+| $ git config --help | Lister de toute les commande quand peut utilisé avec git config |
 ### Création d'un repository
 
 |  commande  | Utilité  |
 | ------------- | ------------- |
-| $ git init nom_repository| initialisé un nouveau dépot dans le repertoir ou on se trouve |
+| $ git init nom_repository| Initialisation d'un nouveau dépot dans le repertoire ou on se trouve |
 
   Aprés avoir initialisé le dépôt sur notre répertoire de travail, il faut ajouter nous modification à notre index avec  "$ git add .", l'enregistrer sur le repository local "$ git commit -m 'message à sauvgarder'" et ensuite l'envoyer sur le repository distant "$git push ".
 
