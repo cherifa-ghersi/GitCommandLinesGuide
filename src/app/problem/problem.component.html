@@ -1,0 +1,18 @@
+<form class="problems-form">
+  <mat-form-field class="problems-full-width">
+    <input matInput placeholder="Problem" aria-label="Problem" [matAutocomplete]="auto" [formControl]="problemCtrl">
+    <mat-autocomplete #auto="matAutocomplete">
+      <mat-option *ngFor="let problem of filteredProblems | async" [value]="problem.name">
+        <span>{{problem.name}}</span> |
+      </mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+
+  <br>
+
+  <mat-slide-toggle
+    [checked]="problemCtrl.disabled"
+    (change)="problemCtrl.disabled ? problemCtrl.enable() : problemCtrl.disable()">
+    Disable Input?
+  </mat-slide-toggle>
+</form>
