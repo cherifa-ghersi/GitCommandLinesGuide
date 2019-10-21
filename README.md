@@ -59,7 +59,7 @@ Sommaire
 | ------------- | ------------- |
 | $ git clone url_repository | Copié un repository distant |
 
-Aprés avoir copié le repository disatant il faut se mettre sur le dossier ajouter "cd nom_depot"
+Aprés avoir copié le repository disatant il faut se mettre sur le repertoire crée "cd nom_depot"
 
 ### Modification
 

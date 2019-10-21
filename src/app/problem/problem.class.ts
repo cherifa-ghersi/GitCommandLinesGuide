@@ -1,3 +1,5 @@
 export interface Problem {
-  name: string;
+  id: number;
+  value: string;
+  solution: string;
 }

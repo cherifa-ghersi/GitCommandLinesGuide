@@ -1,0 +1,15 @@
+.container{
+  flex: 1 1;
+  padding-top: 10rem;
+  flex-direction: row;
+  display: flex;
+}
+
+.container-problem {
+  width: 100%;
+}
+.container-solution{
+  width: 100%;
+  padding-top: 5rem;
+
+}

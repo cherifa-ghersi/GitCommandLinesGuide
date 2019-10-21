@@ -1,18 +1,17 @@
-<form class="problems-form">
-  <mat-form-field class="problems-full-width">
-    <input matInput placeholder="Problem" aria-label="Problem" [matAutocomplete]="auto" [formControl]="problemCtrl">
-    <mat-autocomplete #auto="matAutocomplete">
-      <mat-option *ngFor="let problem of filteredProblems | async" [value]="problem.name">
-        <span>{{problem.name}}</span> |
-      </mat-option>
-    </mat-autocomplete>
-  </mat-form-field>
 
-  <br>
-
-  <mat-slide-toggle
-    [checked]="problemCtrl.disabled"
-    (change)="problemCtrl.disabled ? problemCtrl.enable() : problemCtrl.disable()">
-    Disable Input?
-  </mat-slide-toggle>
-</form>
+<div class="problems-form">
+  <div >
+        <h1>Git Problem Explorer </h1>
+        <p>Find the right commands you need without digging through the web.</p>
+  </div>
+  <form class="block">
+    <mat-form-field class="problems-full-width ">
+      <input matInput placeholder="Oh shit" aria-label="Problem" [matAutocomplete]="auto" [formControl]="problemCtrl">
+      <mat-autocomplete #auto="matAutocomplete" (optionSelected)="optionSelected($event.option.value.id)" [displayWith]="displayFn">
+        <mat-option *ngFor="let problem of filteredproblems | async" [value]="problem" >
+          <span>{{problem.value}}</span>
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+  </form>
+</div>
