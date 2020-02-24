@@ -7,7 +7,7 @@ import { problems } from '../data/options';
   styleUrls: ['./solution.component.css']
 })
 export class SolutionComponent implements OnInit {
-  @Input() selectedProblem : number;
+  @Input() selectedProblem: number;
 
   constructor() { }
 
