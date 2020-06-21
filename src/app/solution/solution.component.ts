@@ -8,11 +8,23 @@ import { problems } from '../data/options';
 })
 export class SolutionComponent implements OnInit {
   @Input() selectedProblem: number;
-
+  taped: Object;
   constructor() { }
 
   ngOnInit() {
-    console.log(this.selectedProblem);
+    console.log(problems, this.selectedProblem);
+  }
+  ngOnChanges(){
+    this.taped = {'speed': 0.1,
+    'timeout': 1000,
+    'hideCursorOnComplete': false,
+    'hideCursor': false,
+    'cursor': '|'
+    }
+  }
+
+  getSolution(){
+    return problems[this.selectedProblem] ? problems[this.selectedProblem].solution : '';
   }
 
 }

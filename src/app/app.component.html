@@ -1,4 +1,4 @@
-<div class="container">
-  <app-problem class="container-problem" (selectedProblem)="selectedProblem=$event"></app-problem>
-  <app-solution class="container-solution" [selectedProblem]="selectedProblem"></app-solution>
+<div class="container row">
+  <app-problem class="container-problem col-md-6" (selectedProblem)="selectedProblem=$event"></app-problem>
+  <app-solution class="container-solution col-md-6" [selectedProblem]="selectedProblem"></app-solution>
 </div>

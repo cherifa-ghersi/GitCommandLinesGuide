@@ -1,4 +1,3 @@
-
 <div class="problems-form">
   <div >
         <h1>Git Problem Explorer </h1>
@@ -9,7 +8,7 @@
       <input matInput placeholder="Oh shit" aria-label="Problem" [matAutocomplete]="auto" [formControl]="problemCtrl">
       <mat-autocomplete #auto="matAutocomplete" (optionSelected)="optionSelected($event.option.value.id)" [displayWith]="displayFn">
         <mat-option *ngFor="let problem of filteredproblems | async" [value]="problem" >
-          <span>{{problem.value}}</span>
+          <span>{{problem?.value}}</span>
         </mat-option>
       </mat-autocomplete>
     </mat-form-field>

@@ -12,6 +12,8 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {MatInputModule} from '@angular/material';
 import { SolutionComponent } from './solution/solution.component';
 import {MatSelectModule} from '@angular/material/select';
+import { NgTypedModule } from 'ng-typed';
+
 
 @NgModule({
   declarations: [
@@ -28,7 +30,8 @@ import {MatSelectModule} from '@angular/material/select';
     MatAutocompleteModule,
     BrowserAnimationsModule,
     MatInputModule,
-    MatSelectModule
+    MatSelectModule,
+    NgTypedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
