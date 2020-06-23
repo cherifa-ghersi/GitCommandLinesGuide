@@ -10,6 +10,10 @@
 }
 .container-solution{
   width: 100%;
-  padding-top: 5rem;
+  padding-top: 8%;
+  margin-left: 5%;
   position: relative;
+}
+.Typewriter__wrapper .comment {
+  color: grey;
 }

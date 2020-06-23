@@ -1,14 +1,14 @@
 <div class="problems-form">
   <div >
-        <h1>Git Problem Explorer </h1>
-        <p>Find the right commands you need without digging through the web.</p>
+        <h1>Oh shit, Git! </h1>
+        <p>Find the right commands you need</p>
   </div>
   <form class="block">
     <mat-form-field class="problems-full-width ">
       <input matInput placeholder="Oh shit" aria-label="Problem" [matAutocomplete]="auto" [formControl]="problemCtrl">
       <mat-autocomplete #auto="matAutocomplete" (optionSelected)="optionSelected($event.option.value.id)" [displayWith]="displayFn">
         <mat-option *ngFor="let problem of filteredproblems | async" [value]="problem" >
-          <span>{{problem?.value}}</span>
+          {{problem?.value}}
         </mat-option>
       </mat-autocomplete>
     </mat-form-field>

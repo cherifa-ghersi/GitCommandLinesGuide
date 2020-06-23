@@ -14,10 +14,12 @@
   transform: translateX(-50%);
   white-space: pre-wrap;
   width: 100%;
+  padding-top: 0px;
+  padding-bottom: 15px;
 }
 
 .board * {
-  letter-spacing : 1px;
+ 
 }
 
 .animate {

@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { problems } from '../data/options';
+import Typewriter from 'typewriter-effect/dist/core';
 
 @Component({
   selector: 'app-solution',
@@ -9,22 +10,29 @@ import { problems } from '../data/options';
 export class SolutionComponent implements OnInit {
   @Input() selectedProblem: number;
   taped: Object;
+  typewriter;
   constructor() { }
-
   ngOnInit() {
     console.log(problems, this.selectedProblem);
   }
   ngOnChanges(){
-    this.taped = {'speed': 0.1,
-    'timeout': 1000,
-    'hideCursorOnComplete': false,
-    'hideCursor': false,
-    'cursor': '|'
-    }
+    this.typewriter =  new Typewriter('#typewriter', {
+      delay: 75,
+      devMode: true
+    });
+    this.typewriter
+    .typeString(this.getSolution())
+    .callFunction((elem)=>{
+      console.log(elem);
+    })
+    .start();
   }
 
   getSolution(){
     return problems[this.selectedProblem] ? problems[this.selectedProblem].solution : '';
   }
-
+  test(elem){
+    console.log(elem);
+  }
+ 
 }

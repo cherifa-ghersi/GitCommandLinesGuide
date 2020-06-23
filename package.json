@@ -28,7 +28,8 @@
     "bootstrap": "^4.4.1",
     "core-js": "^3.6.4",
     "hammerjs": "^2.0.8",
-    "ng-typed": "^1.2.0",
+    "rxjs": "^6.5.5",
+    "typewriter-effect": "^2.13.1",
     "zone.js": "^0.10.2"
   },
   "devDependencies": {
